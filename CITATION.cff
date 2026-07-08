@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you use these course materials, notebooks, or datasets
+  in your research or projects, please cite them using the
+  metadata below.
+type: software
+title: "AI & Machine Learning Course — Jupyter Notebooks & Materials"
+abstract: >-
+  A comprehensive collection of Jupyter Notebooks covering
+  Machine Learning, Deep Learning, and Advanced Deep Learning
+  topics. Includes Python for ML foundations, classical ML
+  algorithms (SVM, KNN, Random Forest, Naive Bayes), PyTorch
+  deep learning pipelines, CNNs, NLP, and a capstone project
+  on Bangladesh student performance prediction.
+authors:
+  - family-names: "Atik"
+    given-names: ""
+    alias: "Atik203"
+    orcid: ""
+    affiliation: ""
+repository-code: "https://github.com/Atik203/AI-ML"
+url: "https://github.com/Atik203/AI-ML"
+license: MIT
+version: "2.0.0"
+date-released: "2026-07-09"
+keywords:
+  - machine-learning
+  - deep-learning
+  - python
+  - jupyter-notebook
+  - pytorch
+  - scikit-learn
+  - neural-networks
+  - convolutional-neural-networks
+  - natural-language-processing
+  - data-science
+  - educational
+  - artificial-intelligence

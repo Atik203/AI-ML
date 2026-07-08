@@ -1,6 +1,89 @@
-.cph
+# ==============================
+# AI & ML Course — .gitignore
+# ==============================
+
+# ---- Large Datasets (add per-file exclusions) ----
+Advanced Deep Learning/Module 9/IMDB Dataset.csv
+
+# ---- Jupyter Notebook Checkpoints ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# ---- Distribution / Packaging ----
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# ---- pytest ----
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# ---- IDE & Editor Files ----
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ---- Temporary / Tool files ----
+.cph/
 temp_auto_push.bat
 temp_interactive_push.bat
-.gitignore
+*.tmp
+*.temp
+*.bak
+*.log
 
-Advanced Deep Learning/Module 9/IMDB Dataset.csv
+# ---- Model Files (large) ----
+# Uncomment if models are too large:
+# *.pkl
+# *.h5
+# *.pt
+# *.pth
+# *.onnx
+
+# ---- Large Media / Data ----
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.rar
+
+# ---- Secrets & Credentials ----
+*.env
+.env.local
+.env.production
+secrets.json
+credentials.json
+api_keys.txt
