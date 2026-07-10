@@ -23,7 +23,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.env
 
 # ---- Distribution / Packaging ----
 build/
@@ -41,8 +40,6 @@ coverage.xml
 *.cover
 
 # ---- IDE & Editor Files ----
-.vscode/settings.json
-.vscode/launch.json
 .idea/
 *.swp
 *.swo
@@ -82,8 +79,8 @@ temp_interactive_push.bat
 
 # ---- Secrets & Credentials ----
 *.env
-.env.local
-.env.production
 secrets.json
 credentials.json
 api_keys.txt
+config.bat
+node_modules
